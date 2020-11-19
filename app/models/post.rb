@@ -5,6 +5,10 @@ class Post < ActiveRecord::Base
   
   # New Code!!
   before_validation :make_title_case
+  
+  
+
+
 
   private
 
